@@ -22,10 +22,24 @@ tl.to(".zoom-01-start-button", {
 })
   .to(".zoom-01-element-1", { scale: 3, y: "100%", duration: 3, ease: "none" })
   .to(".zoom-01-element-2", { scale: 3, y: "100%", duration: 4, ease: "none" })
-  .to(".zoom-01-title", { scale: 3, y: "100%", duration: 4, ease: "none" })
+  .to(".zoom-01-title", {
+    scale: 2,
+    opacity: 0,
+    y: "-200%",
+    duration: 4,
+    ease: "none",
+  })
   .to(".zoom-01-background", {
     scale: 3,
     opacity: 0,
     duration: 1,
+    ease: "none",
+  })
+  .to(".zoom-02-element-1", { scale: 3, y: "100%", duration: 4, ease: "none" })
+  .to(".zoom-02-element-2", { scale: 3, y: "100%", duration: 4, ease: "none" })
+  .to(".zoom-02-background", {
+    scale: 3,
+    y: "100%",
+    duration: 4,
     ease: "none",
   });
