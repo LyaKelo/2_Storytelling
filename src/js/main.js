@@ -14,14 +14,21 @@ const tl = gsap.timeline({
   },
 });
 
-tl.to(".zoom-01-element-1", { scale: 3, y: "100%", duration: 5, ease: "none" })
+tl.to(".zoom-01-start-button", {
+  y: "100%",
+  opacity: 0,
+  duration: 0.3,
+  ease: "none",
+})
   .to(
-    ".zoom-01-element-2",
-    { scale: 3, y: "100%", duration: 4, ease: "none" },
-    "-=4.5"
+    ".zoom-01-element-1",
+    { scale: 3, y: "100%", duration: 5, ease: "none" },
+    "=10"
   )
-  .to(
-    ".zoom-01-background",
-    { scale: 3, opacity: 0, duration: 1, ease: "none" },
-    "-=3"
-  );
+  .to(".zoom-01-element-2", { scale: 3, y: "100%", duration: 4, ease: "none" })
+  .to(".zoom-01-background", {
+    scale: 3,
+    opacity: 0,
+    duration: 1,
+    ease: "none",
+  });
