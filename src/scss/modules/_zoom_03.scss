@@ -12,36 +12,46 @@
 .zoom-03-element-2 {
   position: absolute;
   z-index: 43;
+  top: -30%;
 }
 .zoom-03-element-3 {
   position: absolute;
   z-index: 42;
+  top: -30%;
 }
 .zoom-03-element-4 {
   position: absolute;
   z-index: 41;
+  top: -30%;
 }
 .zoom-03-element-5 {
   position: absolute;
   z-index: 40;
+  top: -30%;
 }
-.zoom-03-element-6 {
+.zoom-03-front-seagulls {
   position: absolute;
-  z-index: 39;
+  z-index: 44;
 }
-.zoom-03-element-7 {
+.zoom-03-middle-seagulls {
   position: absolute;
-  z-index: 38;
+  z-index: 45;
 }
-.zoom-03-element-8 {
+.zoom-03-back-seagulls {
   position: absolute;
-  z-index: 37;
+  z-index: 40;
+  bottom: 20;
 }
 .zoom-03-text {
   position: absolute;
-  z-index: 45;
+  z-index: 43;
+  left: 50;
+  top: 70;
 }
 .zoom-03-text-2 {
   position: absolute;
-  z-index: 45;
+  z-index: 43;
+  right: 50;
+  top: 260;
+  width: 55%;
 }

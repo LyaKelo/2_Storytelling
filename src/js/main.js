@@ -86,7 +86,21 @@ tl.to(".zoom-01-start-button", {
     duration: 4,
     ease: "none",
   })
+  .to(".zoom-03-front-seagulls", {
+    scale: 3,
+    opacity: 0,
+    y: "100%",
+    duration: 4,
+    ease: "none",
+  })
   .to(".zoom-03-element-3", {
+    scale: 3,
+    opacity: 0,
+    y: "100%",
+    duration: 4,
+    ease: "none",
+  })
+  .to(".zoom-03-middle-seagulls", {
     scale: 3,
     opacity: 0,
     y: "100%",
@@ -107,21 +121,7 @@ tl.to(".zoom-01-start-button", {
     duration: 4,
     ease: "none",
   })
-  .to(".zoom-03-element-6", {
-    scale: 3,
-    opacity: 0,
-    y: "100%",
-    duration: 4,
-    ease: "none",
-  })
-  .to(".zoom-03-element-7", {
-    scale: 3,
-    opacity: 0,
-    y: "100%",
-    duration: 4,
-    ease: "none",
-  })
-  .to(".zoom-03-element-8", {
+  .to(".zoom-03-back-seagulls", {
     scale: 3,
     opacity: 0,
     y: "100%",
