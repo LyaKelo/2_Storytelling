@@ -224,4 +224,5 @@ tl.to(".zoom-01-start-button", {
   .to(".zoom-06-background", { y: "-50%", duration: 4, ease: "none" }, "-=3")
   .to(".zoom-06-element-1", { y: "-5%", duration: 4, ease: "none" }, "-=5")
   .to(".zoom-06-element-2", { y: "-5%", duration: 4, ease: "none" }, "-=5")
-  .to(".zoom-06-element-3", { y: "-5%", duration: 4, ease: "none" }, "-=5");
+  .to(".zoom-06-element-3", { y: "-5%", duration: 4, ease: "none" }, "-=5")
+  .to(".l-horinzontal-scroll", { x: "-100%", duration: 10, ease: "power1.in" });

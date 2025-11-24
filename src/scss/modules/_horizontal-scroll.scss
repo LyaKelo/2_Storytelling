@@ -1,0 +1,63 @@
+.horizontal-scroll-transition {
+  padding-right: 100px;
+
+  img {
+    height: 100vh;
+  }
+}
+
+.horizontal-scroll-content {
+  display: flex;
+  gap: 300px;
+  background-color: black;
+  align-items: center;
+  img:nth-child(even) {
+    align-self: flex-start;
+  }
+  img:nth-child(odd) {
+    align-self: flex-end;
+  }
+}
+
+.horizontal-scroll-content {
+}
+
+.horinzontal-scroll-mockup-section {
+  position: relative;
+}
+
+// .horizontal-scroll-mockup {
+//   position: relative;
+//   height: 50vh;
+// }
+// .horizontal-scroll-img-1 {
+//   height: 60vh;
+//   left: 100px;
+// }
+// .horizontal-scroll-img-2 {
+//   height: 60vh;
+// }
+// .horizontal-scroll-img-3 {
+//   height: 60vh;
+// }
+// .horizontal-scroll-img-4 {
+//   height: 60vh;
+// }
+// .horizontal-scroll-img-5 {
+//   height: 60vh;
+// }
+// .horizontal-scroll-img-6 {
+//   height: 60vh;
+// }
+// .horizontal-scroll-img-7 {
+//   height: 60vh;
+// }
+// .horizontal-scroll-img-8 {
+//   height: 60vh;
+// }
+// .horizontal-scroll-img-9 {
+//   height: 60vh;
+// }
+// .horizontal-scroll-img-10 {
+//   height: 60vh;
+// }
