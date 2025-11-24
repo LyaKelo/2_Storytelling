@@ -1,0 +1,64 @@
+.footer-content {
+  margin-right: 30vw;
+  margin-left: -15vw;
+  color: #fff;
+}
+
+.footer-book-title {
+  font-family: Dorsa;
+  font-size: 562px;
+  line-height: 222px;
+  text-transform: uppercase;
+  margin-top: 5vw;
+}
+.footer-info-content {
+  display: flex;
+  margin-top: 5vw;
+}
+.footer-edition-house {
+  font-family: "Albert Sans";
+  font-size: 50px;
+  line-height: 139%;
+  letter-spacing: -3.5px;
+  width: 23vw;
+}
+.footer-author {
+  text-align: right;
+  font-family: "Albert Sans";
+  font-size: 50px;
+  line-height: 139%;
+  letter-spacing: -3.5px;
+}
+
+// .footer-btn-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 50%;
+// }
+
+.footer-btn-elements {
+  display: flex;
+  width: 23vw;
+  height: 65px;
+  padding: 15px 80px 19px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  margin-top: 10vw;
+  background-color: transparent;
+  color: #fff;
+
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Albert Sans";
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 30px */
+  letter-spacing: -2.1px;
+  border-radius: 100px;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
