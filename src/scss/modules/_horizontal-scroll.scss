@@ -1,6 +1,4 @@
 .horizontal-scroll-transition {
-  padding-right: 5px;
-
   img {
     height: 100vh;
   }
@@ -16,45 +14,88 @@
   }
   img:nth-child(even) {
     align-self: flex-end;
-    // margin-top: -10vw;
-    // margin-bottom: -10vw;
   }
 }
 .horinzontal-scroll-mockup-section {
   position: relative;
 }
 
-// .horizontal-scroll-mockup {
-//   position: relative;
-//   height: 50vh;
-// }
-.horizontal-scroll-img-1 {
-  height: 60vh;
+.horinzontal-scroll-mockup-section:hover .horizontal-scroll-mockup {
+  opacity: 20%;
+  transition: opacity 0.3s ease-in-out;
 }
-// .horizontal-scroll-img-2 {
-//   height: 60vh;
-// }
-// .horizontal-scroll-img-3 {
-//   height: 60vh;
-// }
-// .horizontal-scroll-img-4 {
-//   height: 60vh;
-// }
-// .horizontal-scroll-img-5 {
-//   height: 60vh;
-// }
-// .horizontal-scroll-img-6 {
-//   height: 60vh;
-// }
-// .horizontal-scroll-img-7 {
-//   height: 60vh;
-// }
-// .horizontal-scroll-img-8 {
-//   height: 60vh;
-// }
-// .horizontal-scroll-img-9 {
-//   height: 60vh;
-// }
-// .horizontal-scroll-img-10 {
-//   height: 60vh;
-// }
+
+.horinzontal-scroll-mockup-section:hover .horizontal-scroll-buy-btn {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.horizontal-scroll-buy-btn:hover {
+  background-color: white;
+  color: black;
+}
+.horizontal-scroll-buy-btn {
+  position: absolute;
+  display: flex;
+  width: 23vw;
+  height: 65px;
+  padding: 30px 80px 30px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  margin-top: 10vw;
+  background-color: transparent;
+  color: #fff;
+  top: 18vw;
+  right: 17vw;
+  opacity: 0;
+
+  text-align: center;
+  leading-trim: both;
+  font-family: "Albert Sans";
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -2.1px;
+  border-radius: 100px;
+  border: 2px solid #ffffff;
+}
+.horizontal-scroll-img-1 {
+  height: 65vh;
+  padding-top: 10vw;
+}
+.horizontal-scroll-img-2 {
+  height: 68vh;
+  padding-bottom: 10vw;
+}
+.horizontal-scroll-img-3 {
+  height: 70vh;
+  padding-top: 10vw;
+}
+.horizontal-scroll-img-4 {
+  height: 100vh;
+}
+.horizontal-scroll-img-5 {
+  height: 80vh;
+  padding-top: 10vw;
+}
+.horizontal-scroll-img-6 {
+  height: 80vh;
+  padding-bottom: 10vw;
+}
+.horizontal-scroll-img-7 {
+  height: 80vh;
+  padding-top: 10vw;
+}
+.horizontal-scroll-img-8 {
+  height: 80vh;
+  margin-bottom: 10vh;
+  margin-right: -15vw;
+}
+.horizontal-scroll-img-9 {
+  height: 100vh;
+  margin-right: -15vw;
+}
+.horizontal-scroll-img-10 {
+  height: 100vh;
+}

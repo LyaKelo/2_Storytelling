@@ -37,6 +37,7 @@
   align-self: stretch;
   background-color: transparent;
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 .zoom-01-start-button {
@@ -49,6 +50,13 @@
   left: 40%;
   right: 40%;
   z-index: 53;
+}
+.zoom-01-start-button img {
+  z-index: 52;
+}
+.zoom-01-start-button-elements:hover {
+  background-color: white;
+  color: black;
 }
 
 .zoom-01-background {
