@@ -1,5 +1,5 @@
 .horizontal-scroll-transition {
-  padding-right: 100px;
+  padding-right: 5px;
 
   img {
     height: 100vh;
@@ -8,15 +8,16 @@
 
 .horizontal-scroll-content {
   display: flex;
-  gap: 300px;
+  gap: 20vw;
   background-color: black;
   align-items: center;
-  img:nth-child(even) {
+  img:nth-child(odd) {
     align-self: flex-start;
   }
-  img:nth-child(odd) {
+  img:nth-child(even) {
     align-self: flex-end;
-    margin-top: 10px;
+    // margin-top: -10vw;
+    // margin-bottom: -10vw;
   }
 }
 .horinzontal-scroll-mockup-section {
@@ -27,10 +28,9 @@
 //   position: relative;
 //   height: 50vh;
 // }
-// .horizontal-scroll-img-1 {
-//   height: 60vh;
-//   left: 100px;
-// }
+.horizontal-scroll-img-1 {
+  height: 60vh;
+}
 // .horizontal-scroll-img-2 {
 //   height: 60vh;
 // }

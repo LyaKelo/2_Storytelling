@@ -36,7 +36,7 @@
 }
 .zoom-06-element-1 {
   position: absolute;
-  bottom: -10%;
+  bottom: -5%;
   width: 100%;
   z-index: 29;
 }
@@ -48,7 +48,22 @@
 }
 .zoom-06-element-3 {
   position: absolute;
-  bottom: -10%;
+  bottom: -25%;
   width: 100%;
   z-index: 27;
+}
+
+.zoom-06-text {
+  width: 40%;
+  z-index: 28;
+  left: 50;
+  top: 150;
+  position: relative;
+}
+.zoom-06-text-2 {
+  width: 40%;
+  z-index: 28;
+  left: 500;
+  top: 150;
+  position: relative;
 }
